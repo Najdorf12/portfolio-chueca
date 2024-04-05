@@ -4,7 +4,7 @@ import img3 from "/ESCUDO regatas.webp";
 import img4 from "/ESCUDO sanidad.webp";
 import namePlayer from "/namePlayer.webp";
 import imgHome from "/imgHome.webp";
-import imgHome2 from "/imghomesinfondo.webp";
+import imgHome2 from "/imgHome2.webp";
 import imgPlayer from "/imgPlayer.webp";
 import escudohome1 from "/bynarg.webp";
 import escudohome2 from "/bynsanidad.webp";
@@ -82,7 +82,7 @@ function App() {
             <img className="max-w-28 md:max-w-32" src={escudohome3} alt="" />
           </header>
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
-            <img  loading="lazy" className="img-home max-w-72 md:max-w-72 lg:max-w-80 lg:ml-44" src={imgHome2} alt="" />
+            <img  loading="lazy" className="img-home max-w-72 md:max-w-72 lg:max-w-80 lg:ml-44" src={imgHome} alt="" />
           </picture>
         </section>
 
@@ -175,7 +175,7 @@ function App() {
           <picture className="w-full flex justify-center items-center mb-8">
             <img loading="lazy" className="max-w-64 md:max-w-96" src={fotografia} alt="" />
           </picture>
-          <picture className="w-[95vw] mb-6 md:w-4/5 md:my-12">
+          <picture loading="lazy" className="w-[95vw] mb-6 md:w-4/5 md:my-12">
             <ImageGallery
               items={images}
               showPlayButton={false}
