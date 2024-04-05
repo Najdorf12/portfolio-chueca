@@ -76,7 +76,7 @@ function App() {
       <main className="w-full font-raleway overflow-hidden">
         <section
           id="home"
-          className="relative w-full h- pt-6 flex flex-col justify-between md:flex-row"
+          className="relative w-full h-screen pt-6 flex flex-col justify-between md:flex-row"
         >
           <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
             <img
@@ -85,7 +85,7 @@ function App() {
               alt=""
             />
           </picture>
-          <header className="w-full flex  justify-center gap-2 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
+          <header className="w-full flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
             <img className="max-w-28 md:max-w-44" src={escudohome1} alt="" />
             <img className="max-w-28 md:max-w-44" src={escudohome2} alt="" />
             <img className="max-w-28 md:max-w-44" src={escudohome3} alt="" />
@@ -100,9 +100,9 @@ function App() {
           className="relative w-full pt-8 flex flex-col items-center bg-slate-400"
         >
           <picture className="">
-            <img className="max-w-56 md:max-w-80" src={carrera} alt="" />
+            <img className="max-w-60 md:max-w-80" src={carrera} alt="" />
           </picture>
-          <article className="self-end pl-2 pr-4 py-4 rounded-md md:mr-14 lg:mt-16 lg:mr-36 bg-white">
+          <article className="self-end pl-2 my-3 pr-4 py-4 rounded-md md:mr-14 lg:mt-16 lg:mr-36 bg-white">
             <h2 className="text-end center font-bold text-xl text-zinc-800 mb-3 lg:text-2xl">
               Trayectoria
             </h2>
@@ -119,7 +119,7 @@ function App() {
           </picture>
           <picture className="relative self-end flex -mt-16 md:self-center md:ml-60 md:-mt-16 lg:-mt-64">
             <img className="max-w-56 md:max-w-72" src={imgHome} alt="" />
-            <header className="absolute -left-24 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-3 md:-left-32 lg:flex-row lg:-left-[450px]">
+            <header className="absolute -left-32 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-3 md:-left-32 lg:flex-row lg:-left-[450px]">
               <img className="max-w-20 md:max-w-28" src={escudocol1} alt="" />
               <img className="max-w-20 md:max-w-28" src={escudocol2} alt="" />
               <img className="max-w-20 md:max-w-28" src={escudocol3} alt="" />
