@@ -76,22 +76,22 @@ function App() {
       <main className="w-full font-raleway overflow-hidden">
         <section
           id="home"
-          className="relative h-[90vh] w-full pt-6 flex flex-col justify-between md:flex-row"
+          className="relative h-[90vh] w-full pt-6 flex flex-col justify-between md:flex-row lg:h-screen"
         >
           <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
             <img
-              className="max-w-72 md:max-w-2xl md:ml-6 md:mt-8"
+              className="max-w-72 md:max-w-xl md:ml-6 md:mt-8"
               src={namePlayer}
               alt=""
             />
           </picture>
-          <header className="w-full flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
-            <img className="max-w-28 md:max-w-44" src={escudohome1} alt="" />
-            <img className="max-w-28 md:max-w-44" src={escudohome2} alt="" />
-            <img className="max-w-28 md:max-w-44" src={escudohome3} alt="" />
+          <header className="w-full flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24 ">
+            <img className="max-w-28 md:max-w-32" src={escudohome1} alt="" />
+            <img className="max-w-28 md:max-w-32" src={escudohome2} alt="" />
+            <img className="max-w-28 md:max-w-32" src={escudohome3} alt="" />
           </header>
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
-            <img className="max-w-72 md:max-w-80" src={imgHome2} alt="" />
+            <img className="max-w-72 md:max-w-72" src={imgHome2} alt="" />
           </picture>
         </section>
 
@@ -119,7 +119,7 @@ function App() {
           </picture>
           <picture className="relative self-end flex -mt-16 md:self-center md:ml-60 md:-mt-16 lg:-mt-64">
             <img className="max-w-56 md:max-w-72" src={imgHome} alt="" />
-            <header className="absolute -left-32 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-3 md:-left-32 lg:flex-row lg:-left-[450px]">
+            <header className="absolute -left-32 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32 lg:flex-row lg:-left-[450px]">
               <img className="max-w-20 md:max-w-28" src={escudocol1} alt="" />
               <img className="max-w-20 md:max-w-28" src={escudocol2} alt="" />
               <img className="max-w-20 md:max-w-28" src={escudocol3} alt="" />
