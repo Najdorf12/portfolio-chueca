@@ -179,10 +179,10 @@ function App() {
 
         <section
           id="fotografia"
-          className="w-full flex flex-col justify-center items-center py-10"
+          className="w-full flex flex-col justify-center items-center py-14"
         >
-          <picture className="w-full flex justify-center items-center mb-6">
-            <img className="max-w-60 md:max-w-96" src={fotografia} alt="" />
+          <picture className="w-full flex justify-center items-center mb-8">
+            <img className="max-w-64 md:max-w-96" src={fotografia} alt="" />
           </picture>
           <picture className="w-[95vw] mb-6 md:w-4/5 md:my-12">
             <ImageGallery
@@ -196,10 +196,10 @@ function App() {
         </section>
 
         <section>
-          <picture className="w-full flex justify-center items-center my-6">
+          <picture className="w-full flex justify-center items-center my-14">
             <img className="max-w-64 lg:max-w-96" src={suelaP} alt="" />
           </picture>
-          <picture className="w-[95vw] my-14 md:w-4/5 md:my-12 lg:mb-20">
+          <picture className="w-[95vw] my-6 md:w-4/5 md:my-12 lg:mb-24">
             <img src={imgFooter} alt="" />
           </picture>
         </section>
