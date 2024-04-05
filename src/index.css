@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body{
-  background-image: linear-gradient(to right top, #073b88, #00356e, #002e53, #0f2538, #171b1f);
+  background-image: linear-gradient(to right top, #1602c2, #001a97, #001c6b, #13193f, #131314);
 }
 
  .img-home{
