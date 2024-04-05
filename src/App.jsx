@@ -76,7 +76,7 @@ function App() {
       <main className="w-full font-raleway overflow-hidden">
         <section
           id="home"
-          className="relative h-5/6 w-full pt-6 flex flex-col justify-between md:flex-row"
+          className="relative h-[90vh] w-full pt-6 flex flex-col justify-between md:flex-row"
         >
           <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
             <img
