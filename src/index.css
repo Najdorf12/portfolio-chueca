@@ -5,37 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
-#home{
-  background: url('/bg-movile.webp');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-#about{
-  background: url('/bg-movile.webp');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-#data-player{
-  background: url('/bg-movile.webp');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-#video{
-  background: url('/bg-movile.webp');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-#fotografia{
-  background: url('/bg-movile.webp');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+body{
+  background-image: linear-gradient(to right top, #073b88, #00356e, #002e53, #0f2538, #171b1f);
 }
 
+ .img-home{
+  mask-image: linear-gradient(
+    80% #070707,
+    transparent
+  ) !important;
+     z-index: 100 ;
+ }
 .image-gallery-image {
     border-radius: 20px;
   }
