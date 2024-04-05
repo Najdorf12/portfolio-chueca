@@ -6,9 +6,9 @@ import namePlayer from "/namePlayer.webp";
 import imgHome from "/imgHome.webp";
 import imgHome2 from "/imghomesinfondo.webp";
 import imgPlayer from "/imgPlayer.webp";
-import escudohome1 from "/regatas-byn.webp";
-import escudohome2 from "/seleccion-byn.webp";
-import escudohome3 from "/sanidad-byn.webp";
+import escudohome1 from "/bynarg.webp";
+import escudohome2 from "/bynsanidad.webp";
+import escudohome3 from "/bynregatas.webp";
 
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
