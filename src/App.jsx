@@ -2,7 +2,7 @@ import img1 from "/ESCUDO ARG.webp";
 import img2 from "/ESCUDO mza.webp";
 import img3 from "/ESCUDO regatas.webp";
 import img4 from "/ESCUDO sanidad.webp";
-import namePlayer from "/namePlayer.webp"
+import namePlayer from "/namePlayer.webp";
 import imgHome from "/imgHome.webp";
 import imgHome2 from "/imghomesinfondo.webp";
 import imgPlayer from "/imgPlayer.webp";
@@ -15,12 +15,12 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 import carrera from "/graf CARRERA.webp";
 import biografia from "/grafBiografia.webp";
-import suelaP from "/graf SP.webp"
+import suelaP from "/graf SP.webp";
 import video from "/graf VIDEO.webp";
 import fotografia from "/graf FOTOS.webp";
 import titulos from "/titulos.webp";
 import mapaCalor from "/mapacalor.webp";
-import imgFooter from "/footer.webp"
+import imgFooter from "/footer.webp";
 
 import imgSlider1 from "/imgSlider1.jpg";
 import imgSlider2 from "/imgSlider2.jpg";
@@ -31,10 +31,10 @@ import imgSlider6 from "/imgSlider6.jpg";
 import imgSlider7 from "/imgSlider7.jpg";
 import imgSlider8 from "/imgSlider8.jpg";
 
-import escudocol1 from "/ESCUDO ARG.webp"
-import escudocol2 from "/ESCUDO mza.webp"
-import escudocol3 from "/ESCUDO sanidad.webp"
-import escudocol4 from "/ESCUDO regatas.webp"
+import escudocol1 from "/ESCUDO ARG.webp";
+import escudocol2 from "/ESCUDO mza.webp";
+import escudocol3 from "/ESCUDO sanidad.webp";
+import escudocol4 from "/ESCUDO regatas.webp";
 
 function App() {
   const images = [
@@ -78,15 +78,19 @@ function App() {
           id="home"
           className="relative w-full h- pt-6 flex flex-col justify-between md:flex-row"
         >
-          <picture className="z-50 bg-red-600 w-full flex justify-center items-end md:items-start md:w-auto">
-            <img className="max-w-72 md:max-w-2xl md:ml-6 md:mt-8" src={namePlayer} alt="" />
+          <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
+            <img
+              className="max-w-72 md:max-w-2xl md:ml-6 md:mt-8"
+              src={namePlayer}
+              alt=""
+            />
           </picture>
-          <header className="w-full flex bg-purple-400 justify-center gap-2 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
+          <header className="w-full flex  justify-center gap-2 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
             <img className="max-w-28 md:max-w-44" src={escudohome1} alt="" />
             <img className="max-w-28 md:max-w-44" src={escudohome2} alt="" />
             <img className="max-w-28 md:max-w-44" src={escudohome3} alt="" />
           </header>
-          <picture className="z-10 bg-teal-400 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
+          <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
             <img className="max-w-72 md:max-w-80" src={imgHome2} alt="" />
           </picture>
         </section>
@@ -115,13 +119,12 @@ function App() {
           </picture>
           <picture className="relative self-end flex -mt-16 md:self-center md:ml-60 md:-mt-16 lg:-mt-64">
             <img className="max-w-56 md:max-w-72" src={imgHome} alt="" />
-          <header className="absolute -left-24 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-3 md:-left-32 lg:flex-row lg:-left-[450px]">
-            <img className="max-w-20 md:max-w-28" src={escudocol1} alt="" />
-            <img className="max-w-20 md:max-w-28" src={escudocol2} alt="" />
-            <img className="max-w-20 md:max-w-28" src={escudocol3} alt="" />
-          </header>
+            <header className="absolute -left-24 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-3 md:-left-32 lg:flex-row lg:-left-[450px]">
+              <img className="max-w-20 md:max-w-28" src={escudocol1} alt="" />
+              <img className="max-w-20 md:max-w-28" src={escudocol2} alt="" />
+              <img className="max-w-20 md:max-w-28" src={escudocol3} alt="" />
+            </header>
           </picture>
-        
         </section>
 
         <section
@@ -131,11 +134,11 @@ function App() {
           <picture className="w-full flex justify-center items-center md:absolute md:top-0 md:right-0  md:left-0 md:mt-8 ">
             <img className="max-w-56 md:max-w-80" src={biografia} alt="" />
           </picture>
-          <article className= "max-w-[400px] w-11/12  rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
+          <article className="max-w-[400px] w-11/12  rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
             <ul className="text-base py-6 font-semibold font-poppins flex flex-col text-zinc-500 bg-white px-4 lg:py-4 lg:text-lg lg:gap-2 rounded-md">
               <li>
-                <span className="text-zinc-700 font-bold mr-2">Debut:</span> 2018
-                | Club Sanidad - Mendoza
+                <span className="text-zinc-700 font-bold mr-2">Debut:</span>{" "}
+                2018 | Club Sanidad - Mendoza
               </li>
               <li>
                 <span className="text-zinc-700 font-bold mr-2">
@@ -152,7 +155,7 @@ function App() {
               </li>
               <li>
                 <span className="text-zinc-700 font-bold mr-2">Apodo:</span>
-                  Chueca
+                Chueca
               </li>
             </ul>
           </article>
@@ -174,7 +177,10 @@ function App() {
           <div className="w-11/12 h-56 md:w-4/5 bg-zinc-700"></div>
         </section>
 
-        <section id="fotografia" className="w-full flex flex-col justify-center items-center py-10">
+        <section
+          id="fotografia"
+          className="w-full flex flex-col justify-center items-center py-10"
+        >
           <picture className="w-full flex justify-center items-center mb-6">
             <img className="max-w-60 md:max-w-96" src={fotografia} alt="" />
           </picture>
@@ -190,11 +196,11 @@ function App() {
         </section>
 
         <section>
-        <picture className="w-full flex justify-center items-center my-6">
+          <picture className="w-full flex justify-center items-center my-6">
             <img className="max-w-64 lg:max-w-96" src={suelaP} alt="" />
           </picture>
           <picture className="w-[95vw] my-14 md:w-4/5 md:my-12 lg:mb-20">
-                <img src={imgFooter} alt="" />
+            <img src={imgFooter} alt="" />
           </picture>
         </section>
       </main>
@@ -204,21 +210,6 @@ function App() {
 
 export default App;
 /* Matías Origaen
-"Chueca"
-
-
-15 años debut con primera 
-
-Sanidad y regatas 
-
-Pivot/ala 
-
-Derecho 
-
-1,82 altura 
-
-75 kg
-
 matiorigaen@gmail.com
 
  3 ascensos 
