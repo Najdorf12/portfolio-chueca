@@ -199,7 +199,7 @@ function App() {
           <picture className="w-full flex justify-center items-center my-12">
             <img className="max-w-64 lg:max-w-96" src={suelaP} alt="" />
           </picture>
-          <picture className="w-[95vw] my-2 md:w-4/5 md:my-12 lg:mb-24 flex justify-center self-center lg:-mt-12 ">
+          <picture className="w-[95vw] my-2 md:w-4/5 md:my-12 lg:mb-24 flex justify-center self-center lg:-mt-12 lg:ml-6 ">
             <img src={imgFooter} alt="" />
           </picture>
         </section>
