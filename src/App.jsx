@@ -76,17 +76,17 @@ function App() {
       <main className="w-full font-raleway overflow-hidden">
         <section
           id="home"
-          className="relative w-full h-screen bg-cyan-700 pt-6 flex flex-col justify-between md:flex-row"
+          className="relative w-full h-screen pt-6 flex flex-col justify-between md:flex-row"
         >
           <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
-            <img className="max-w-60 md:max-w-xl md:ml-6 md:mt-6" src={namePlayer} alt="" />
+            <img className="max-w-72 md:max-w-xl md:ml-6 md:mt-6" src={namePlayer} alt="" />
           </picture>
           <header className="w-full flex justify-center gap-2 items-center overflow-hidden  md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
             <img className="max-w-20 md:max-w-32" src={escudohome1} alt="" />
             <img className="max-w-20 md:max-w-32" src={escudohome2} alt="" />
             <img className="max-w-20 md:max-w-32" src={escudohome3} alt="" />
           </header>
-          <picture className="z-10 w-full h-auto flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
+          <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
             <img className="max-w-52 md:max-w-80" src={imgHome2} alt="" />
           </picture>
         </section>
@@ -98,11 +98,11 @@ function App() {
           <picture className="">
             <img className="max-w-56 md:max-w-80" src={carrera} alt="" />
           </picture>
-          <article className="self-end px-3 py-4 rounded-md md:mr-14 lg:mt-16 lg:mr-36">
-            <h2 className="text-end center font-bold text-xl text-zinc-500 mb-3 lg:text-2xl">
+          <article className="self-end pl-2 pr-4 py-4 rounded-md md:mr-14 lg:mt-16 lg:mr-36 bg-white">
+            <h2 className="text-end center font-bold text-xl text-zinc-800 mb-3 lg:text-2xl">
               Trayectoria
             </h2>
-            <ul className="text-base font-semibold text-end text-zinc-600 lg:text-xl ">
+            <ul className="text-base font-semibold text-end text-zinc-700 ">
               <li>Inferiores Club Sanidad</li>
               <li>Debut en primera: 2018</li>
               <li>Club Mendoza de Regatas - 2023</li>
@@ -110,7 +110,7 @@ function App() {
               <li>Selección Argentina (FIFUSA) - 2024</li>
             </ul>
           </article>
-          <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[600px]  lg:ml-24 lg:-mt-36 ">
+          <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[650px]  lg:ml-24 lg:-mt-36 ">
             <img className="w-full md:w-[500px]" src={titulos} alt="" />
           </picture>
           <picture className="relative self-end flex -mt-16 md:self-center md:ml-60 md:-mt-16 lg:-mt-64">
@@ -132,7 +132,7 @@ function App() {
             <img className="max-w-56 md:max-w-80" src={biografia} alt="" />
           </picture>
           <article className= "max-w-[400px] w-11/12  rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
-            <ul className="text-base py-6 font-semibold font-poppins flex flex-col text-zinc-500 lg:py-0 lg:text-lg lg:gap-2 ">
+            <ul className="text-base py-6 font-semibold font-poppins flex flex-col text-zinc-500 bg-white px-4 lg:py-4 lg:text-lg lg:gap-2 rounded-md">
               <li>
                 <span className="text-zinc-700 font-bold mr-2">Debut:</span> 2018
                 | Club Sanidad - Mendoza
