@@ -76,7 +76,7 @@ function App() {
               alt=""
             />
           </picture>
-          <header className="w-full flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24 ">
+          <header className="w-full py-1 flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24 ">
             <img className="max-w-28 md:max-w-32" src={escudohome1} alt="" />
             <img className="max-w-28 md:max-w-32" src={escudohome2} alt="" />
             <img className="max-w-28 md:max-w-32" src={escudohome3} alt="" />
