@@ -15,6 +15,8 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 import carrera from "/graf CARRERA.webp";
 import biografia from "/grafBiografia.webp";
+import datosbiometricos from "/datosbiometricos.webp"
+import carreradata from "/carreradata.webp"
 import suelaP from "/graf SP.webp";
 import video from "/graf VIDEO.webp";
 import fotografia from "/graf FOTOS.webp";
@@ -103,17 +105,8 @@ function App() {
               alt=""
             />
           </picture>
-          <article className="self-end pl-2 my-3 pr-4 py-4 rounded-md md:mr-14 lg:mt-16 lg:mr-36 bg-white">
-            <h2 className="text-end center font-bold text-xl text-zinc-800 mb-3 lg:text-2xl">
-              Trayectoria
-            </h2>
-            <ul className="text-base font-semibold text-end text-zinc-700 ">
-              <li>Inferiores Club Sanidad</li>
-              <li>Debut en primera: 2018</li>
-              <li>Club Mendoza de Regatas - 2023</li>
-              <li>Selección Mendoza (FIFUSA) - 2018</li>
-              <li>Selección Argentina (FIFUSA) - 2024</li>
-            </ul>
+          <article className="self-end my-3 rounded-md md:mr-14 lg:mt-16 lg:mr-36">
+           <img className="max-w-[330px]" src={carreradata} alt="" />
           </article>
           <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[650px]  lg:ml-24 lg:-mt-36 ">
             <img
@@ -177,30 +170,8 @@ function App() {
               alt=""
             />
           </picture>
-          <article className="max-w-[400px] w-11/12  rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
-            <ul className="text-base py-6 font-semibold font-poppins flex flex-col text-zinc-500 bg-white px-4 lg:py-4 lg:text-lg lg:gap-2 rounded-md">
-              <li>
-                <span className="text-zinc-700 font-bold mr-2">Debut:</span>{" "}
-                2018 | Club Sanidad - Mendoza
-              </li>
-              <li>
-                <span className="text-zinc-700 font-bold mr-2">
-                  Pierna hábil:
-                </span>{" "}
-                Derecha
-              </li>
-              <li>
-                <span className="text-zinc-700 font-bold mr-2">Altura:</span>{" "}
-                1.82
-              </li>
-              <li>
-                <span className="text-zinc-700 font-bold mr-2">Peso:</span> 75kg
-              </li>
-              <li>
-                <span className="text-zinc-700 font-bold mr-2">Apodo:</span>
-                Chueca
-              </li>
-            </ul>
+          <article className="max-w-[400px] w-11/12 rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
+           <img src={datosbiometricos} alt="" />
           </article>
           <picture className="w-full h-auto flex justify-end items-end -mt-32 md:w-auto md:mt-0">
             <img
@@ -256,6 +227,7 @@ function App() {
               showBullets={true}
             />
           </picture>
+          <button className="w-56 leading-snug py-2 px-2 mt-10 bg-zinc-900 text-lg font-semibold text-gray-200 rounded-lg lg:mb-10">Contacta al Jugador</button>
         </section>
 
         <section
@@ -270,10 +242,10 @@ function App() {
               alt=""
             />
           </picture>
-          <picture className="w-[95vw] my-2 md:w-4/5 md:my-12 lg:mb-16 flex justify-center self-center lg:-mt-12 lg:ml-6 ">
+          <picture className="w-[95vw] my-4 md:w-4/5 md:my-20 lg:mb-16 flex justify-center self-center lg:-mt-12 lg:ml-6 ">
             <img loading="lazy" src={imgFooter} alt="" />
           </picture>
-          <button className="w-32 py-2 mb-6 bg-zinc-900 text-lg font-semibold text-gray-200 rounded-lg lg:mb-10">Contacto</button>
+        
         </section>
       </main>
     </>
