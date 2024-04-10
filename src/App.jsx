@@ -10,6 +10,7 @@ import escudohome1 from "/bynarg.webp";
 import escudohome2 from "/bynsanidad.webp";
 import escudohome3 from "/bynregatas.webp";
 
+
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -82,7 +83,7 @@ function App() {
             <img className="max-w-28 md:max-w-32" src={escudohome3} alt="" />
           </header>
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
-            <img  loading="lazy" className="img-home mt-12 max-w-72 md:max-w-72 lg:max-w-80 lg:ml-44" src={imgHome} alt="" />
+            <img  loading="lazy" className="img-home mt-12 max-w-72 md:max-w-72 lg:max-w-80 lg:ml-44" src={imgHome2} alt="" />
           </picture>
         </section>
 
