@@ -15,8 +15,8 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 import carrera from "/graf CARRERA.webp";
 import biografia from "/grafBiografia.webp";
-import datosbiometricos from "/datosbiometricos.webp"
-import carreradata from "/carreradata.webp"
+import datosbiometricos from "/datosbiometricos.webp";
+import carreradata from "/carreradata.webp";
 import suelaP from "/graf SP.webp";
 import video from "/graf VIDEO.webp";
 import fotografia from "/graf FOTOS.webp";
@@ -35,7 +35,7 @@ import escudocol2 from "/ESCUDO mza.webp";
 import escudocol3 from "/ESCUDO sanidad.webp";
 import escudocol4 from "/ESCUDO regatas.webp";
 import escudocol1 from "/escudo arg color.png";
-
+import { Link } from "react-router-dom";
 function App() {
   const images = [
     {
@@ -79,7 +79,11 @@ function App() {
             />
           </picture>
           <header className="w-full mt-2 py-1 flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24 ">
-            <img className="max-w-24 md:max-w-32" src={escudohome1} alt="" />
+            <img
+              className="max-w-[100px] md:max-w-32"
+              src={escudohome1}
+              alt=""
+            />
             <img className="max-w-24 md:max-w-32" src={escudohome2} alt="" />
             <img className="max-w-24 md:max-w-32" src={escudohome3} alt="" />
           </header>
@@ -106,9 +110,9 @@ function App() {
             />
           </picture>
           <article className="self-end my-3 rounded-md md:mr-14 lg:mt-16 lg:mr-36">
-           <img className="max-w-[330px]" src={carreradata} alt="" />
+            <img className="w-60 md:w-72 lg:w-[300px]" src={carreradata} alt="" />
           </article>
-          <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[650px]  lg:ml-24 lg:-mt-36 ">
+          <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[650px]  lg:ml-24 lg:-mt-40 ">
             <img
               loading="lazy"
               className="w-full md:w-[500px]"
@@ -123,8 +127,8 @@ function App() {
               src={imgHome}
               alt=""
             />
-            <header className=" absolute -left-44 bottom-14 flex  justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32 lg:flex-row lg:-left-[450px]">
-              <div>
+            <header className=" absolute -left-44 bottom-14 flex  justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32  lg:-left-[450px]">
+              <div className="lg:flex">
                 <img
                   loading="lazy"
                   className="max-w-20 md:max-w-28"
@@ -139,7 +143,7 @@ function App() {
                 />
               </div>
 
-              <div>
+              <div  className="lg:flex">
                 <img
                   loading="lazy"
                   className="max-w-20 md:max-w-28"
@@ -171,7 +175,7 @@ function App() {
             />
           </picture>
           <article className="max-w-[400px] w-11/12 rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
-           <img src={datosbiometricos} alt="" />
+            <img src={datosbiometricos} alt="" />
           </article>
           <picture className="w-full h-auto flex justify-end items-end -mt-32 md:w-auto md:mt-0">
             <img
@@ -198,7 +202,7 @@ function App() {
           <picture className="w-full flex justify-center items-center mb-6 lg:mb-10">
             <img
               loading="lazy"
-              className="max-w-52 lg:max-w-64"
+              className="max-w-48 lg:max-w-64"
               src={video}
               alt=""
             />
@@ -213,7 +217,7 @@ function App() {
           <picture className="w-full flex justify-center items-center mb-8">
             <img
               loading="lazy"
-              className="max-w-64 md:max-w-96"
+              className="max-w-56 md:max-w-96"
               src={fotografia}
               alt=""
             />
@@ -227,9 +231,12 @@ function App() {
               showBullets={true}
             />
           </picture>
-          <button className="w-56 leading-snug py-2 px-2 mt-10 bg-zinc-900 text-lg font-semibold text-gray-200 rounded-lg lg:mb-10">Contacta al Jugador</button>
+          <a href="https://www.instagram.com/chueeca" target="_blank">
+            <button className="w-56 leading-snug py-2 px-2 mt-10 bg-red-600 text-lg font-semibold text-gray-200 rounded-lg lg:mb-10">
+              Contactá al Jugador
+            </button>
+          </a>
         </section>
-
         <section
           id="footer"
           className="w-full flex flex-col justify-center items-center"
@@ -245,7 +252,6 @@ function App() {
           <picture className="w-[95vw] my-4 md:w-4/5 md:my-20 lg:mb-16 flex justify-center self-center lg:-mt-12 lg:ml-6 ">
             <img loading="lazy" src={imgFooter} alt="" />
           </picture>
-        
         </section>
       </main>
     </>
