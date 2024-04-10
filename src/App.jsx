@@ -31,10 +31,10 @@ import imgSlider5 from "/imgSlider5.jpg";
 import imgSlider6 from "/imgSlider6.jpg";
 
 
-import escudocol1 from "/ESCUDO ARG.webp";
 import escudocol2 from "/ESCUDO mza.webp";
 import escudocol3 from "/ESCUDO sanidad.webp";
 import escudocol4 from "/ESCUDO regatas.webp";
+import escudocol1 from "/escudo arg color.png"
 
 function App() {
   const images = [
@@ -115,6 +115,7 @@ function App() {
               <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol1} alt="" />
               <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol2} alt="" />
               <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol3} alt="" />
+              <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol4} alt="" />
             </header>
           </picture>
         </section>
@@ -187,7 +188,7 @@ function App() {
           </picture>
         </section>
 
-        <section className="w-full flex flex-col justify-center items-center">
+        <section id="footer" className="w-full flex flex-col justify-center items-center">
           <picture className="w-full flex justify-center items-center my-12">
             <img loading="lazy" className="max-w-64 lg:max-w-96" src={suelaP} alt="" />
           </picture>

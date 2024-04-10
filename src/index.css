@@ -5,12 +5,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-  
-} */
 
 #home{
- background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 30%, rgb(0, 0, 0) 100%);
+ background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 25%, rgb(0, 0, 0) 100%);
+}
+#about{
+  background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 25%, rgb(0, 0, 0) 100%);
+}
+#data-player{
+  background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 25%, rgb(0, 0, 0) 100%);
+}
+#video{
+  background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 25%, rgb(0, 0, 0) 100%);
+}
+#fotografia{
+  background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 25%, rgb(0, 0, 0) 100%);
 }
  .img-home{
   mask-image: linear-gradient(
