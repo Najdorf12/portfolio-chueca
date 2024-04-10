@@ -273,6 +273,7 @@ function App() {
           <picture className="w-[95vw] my-2 md:w-4/5 md:my-12 lg:mb-24 flex justify-center self-center lg:-mt-12 lg:ml-6 ">
             <img loading="lazy" src={imgFooter} alt="" />
           </picture>
+          <button className="w-32 py-2 mb-6 bg-zinc-900 text-lg font-semibold text-gray-200 rounded-lg">Contacto</button>
         </section>
       </main>
     </>
