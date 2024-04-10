@@ -232,7 +232,7 @@ function App() {
             />
           </picture>
           <a href="https://www.instagram.com/chueeca" target="_blank">
-            <button className="w-56 leading-snug py-2 px-2 mt-10 bg-red-600 text-lg font-semibold text-gray-200 rounded-lg lg:mb-10">
+            <button className="w-56 leading-snug py-2 px-2 mt-10 bg-red-700 text-lg font-semibold text-gray-200 rounded-lg lg:mb-10 hover:scale-110 duration-300">
               Contactá al Jugador
             </button>
           </a>
