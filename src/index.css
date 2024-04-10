@@ -5,10 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-image: linear-gradient(to right top, #1602c2, #001a97, #001c6b, #13193f, #131314);
-}
+/* body{
+  
+} */
 
+#home{
+ background:  linear-gradient(0deg, rgba(16,0,147,1) 0%, rgb(7, 7, 7) 30%, rgb(0, 0, 0) 100%);
+}
  .img-home{
   mask-image: linear-gradient(
     80% #070707,
