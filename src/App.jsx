@@ -130,7 +130,7 @@ function App() {
               src={imgHome}
               alt=""
             />
-            <header className=" absolute -left-40 bottom-10 flex  justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32 lg:flex-row lg:-left-[450px]">
+            <header className=" absolute -left-44 bottom-14 flex  justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32 lg:flex-row lg:-left-[450px]">
               <div>
                 <img
                   loading="lazy"
