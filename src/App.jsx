@@ -10,7 +10,6 @@ import escudohome1 from "/bynarg.webp";
 import escudohome2 from "/bynsanidad.webp";
 import escudohome3 from "/bynregatas.webp";
 
-
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -30,11 +29,10 @@ import imgSlider4 from "/imgSlider4.jpg";
 import imgSlider5 from "/imgSlider5.jpg";
 import imgSlider6 from "/imgSlider6.jpg";
 
-
 import escudocol2 from "/ESCUDO mza.webp";
 import escudocol3 from "/ESCUDO sanidad.webp";
 import escudocol4 from "/ESCUDO regatas.webp";
-import escudocol1 from "/escudo arg color.png"
+import escudocol1 from "/escudo arg color.png";
 
 function App() {
   const images = [
@@ -61,7 +59,7 @@ function App() {
     {
       original: imgSlider6,
       thumbnail: imgSlider6,
-    }
+    },
   ];
   return (
     <>
@@ -71,7 +69,8 @@ function App() {
           className="relative h-[90vh] w-full pt-6 flex flex-col justify-between md:flex-row lg:h-screen"
         >
           <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
-            <img loading="lazy"
+            <img
+              loading="lazy"
               className="max-w-72 md:max-w-xl md:ml-6 md:mt-8"
               src={namePlayer}
               alt=""
@@ -83,7 +82,12 @@ function App() {
             <img className="max-w-28 md:max-w-32" src={escudohome3} alt="" />
           </header>
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
-            <img  loading="lazy" className="img-home mt-12 max-w-72 md:max-w-72 lg:max-w-80 lg:ml-44" src={imgHome2} alt="" />
+            <img
+              loading="lazy"
+              className="img-home mt-12 max-w-72 md:max-w-72 lg:max-w-80 lg:ml-44"
+              src={imgHome2}
+              alt=""
+            />
           </picture>
         </section>
 
@@ -92,7 +96,12 @@ function App() {
           className="relative w-full pt-8 flex flex-col items-center"
         >
           <picture className="">
-            <img loading="lazy" className="max-w-60 md:max-w-80" src={carrera} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-60 md:max-w-80"
+              src={carrera}
+              alt=""
+            />
           </picture>
           <article className="self-end pl-2 my-3 pr-4 py-4 rounded-md md:mr-14 lg:mt-16 lg:mr-36 bg-white">
             <h2 className="text-end center font-bold text-xl text-zinc-800 mb-3 lg:text-2xl">
@@ -107,15 +116,51 @@ function App() {
             </ul>
           </article>
           <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[650px]  lg:ml-24 lg:-mt-36 ">
-            <img loading="lazy" className="w-full md:w-[500px]" src={titulos} alt="" />
+            <img
+              loading="lazy"
+              className="w-full md:w-[500px]"
+              src={titulos}
+              alt=""
+            />
           </picture>
           <picture className="relative self-end flex -mt-16 md:self-center md:ml-60 md:-mt-16 lg:-mt-64">
-            <img loading="lazy" className="img-home max-w-56 md:max-w-72" src={imgHome} alt="" />
-            <header className="absolute -left-32 bottom-4 flex flex-col justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32 lg:flex-row lg:-left-[450px]">
-              <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol1} alt="" />
-              <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol2} alt="" />
-              <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol3} alt="" />
-              <img loading="lazy" className="max-w-20 md:max-w-28" src={escudocol4} alt="" />
+            <img
+              loading="lazy"
+              className="img-home max-w-56 md:max-w-72"
+              src={imgHome}
+              alt=""
+            />
+            <header className=" bg-red-600 absolute -left-36 bottom-6 flex  justify-center gap-2 items-center overflow-hidden md:bottom-7 md:-left-32 lg:flex-row lg:-left-[450px]">
+              <div>
+                <img
+                  loading="lazy"
+                  className="max-w-20 md:max-w-28"
+                  src={escudocol1}
+                  alt=""
+                />
+                <img
+                  loading="lazy"
+                  className="max-w-20 md:max-w-28"
+                  src={escudocol2}
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <img
+                  loading="lazy"
+                  className="max-w-20 md:max-w-28"
+                  src={escudocol3}
+                  alt=""
+                />
+
+                <img
+                  loading="lazy"
+                  className="max-w-20 md:max-w-28"
+                  src={escudocol4}
+                  alt=""
+                />
+              </div>
             </header>
           </picture>
         </section>
@@ -125,7 +170,12 @@ function App() {
           className="relative w-full  pt-10 flex flex-col md:flex-row md:h-screen lg:justify-evenly"
         >
           <picture className="w-full flex justify-center items-center md:absolute md:top-0 md:right-0  md:left-0 md:mt-8 ">
-            <img loading="lazy" className="max-w-56 md:max-w-80" src={biografia} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-56 md:max-w-80"
+              src={biografia}
+              alt=""
+            />
           </picture>
           <article className="max-w-[400px] w-11/12  rounded-md mt-3 md:w-[450px] md:h-[180px] md:mt-40 pl-4 pt-3 md:ml-16">
             <ul className="text-base py-6 font-semibold font-poppins flex flex-col text-zinc-500 bg-white px-4 lg:py-4 lg:text-lg lg:gap-2 rounded-md">
@@ -153,10 +203,20 @@ function App() {
             </ul>
           </article>
           <picture className="w-full h-auto flex justify-end items-end -mt-32 md:w-auto md:mt-0">
-            <img loading="lazy" className="max-w-56 md:max-w-80" src={imgPlayer} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-56 md:max-w-80"
+              src={imgPlayer}
+              alt=""
+            />
           </picture>
           <picture className="w-full h-auto flex justify-start items-end -mt-28 md:justify-center mb-8 md:w-auto">
-            <img loading="lazy" className="max-w-56 md:max-w-80" src={mapaCalor} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-56 md:max-w-80"
+              src={mapaCalor}
+              alt=""
+            />
           </picture>
         </section>
 
@@ -165,7 +225,12 @@ function App() {
           className="w-full py-10 flex flex-col justify-center items-center lg:py-20"
         >
           <picture className="w-full flex justify-center items-center mb-6 lg:mb-10">
-            <img loading="lazy" className="max-w-52 lg:max-w-64" src={video} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-52 lg:max-w-64"
+              src={video}
+              alt=""
+            />
           </picture>
           <div className="w-11/12 h-56 md:w-4/5 bg-zinc-700"></div>
         </section>
@@ -175,7 +240,12 @@ function App() {
           className="w-full flex flex-col justify-center items-center py-14"
         >
           <picture className="w-full flex justify-center items-center mb-8">
-            <img loading="lazy" className="max-w-64 md:max-w-96" src={fotografia} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-64 md:max-w-96"
+              src={fotografia}
+              alt=""
+            />
           </picture>
           <picture loading="lazy" className="w-[95vw] mb-6 md:w-4/5 md:my-12">
             <ImageGallery
@@ -188,9 +258,17 @@ function App() {
           </picture>
         </section>
 
-        <section id="footer" className="w-full flex flex-col justify-center items-center">
+        <section
+          id="footer"
+          className="w-full flex flex-col justify-center items-center"
+        >
           <picture className="w-full flex justify-center items-center my-12">
-            <img loading="lazy" className="max-w-64 lg:max-w-96" src={suelaP} alt="" />
+            <img
+              loading="lazy"
+              className="max-w-64 lg:max-w-96"
+              src={suelaP}
+              alt=""
+            />
           </picture>
           <picture className="w-[95vw] my-2 md:w-4/5 md:my-12 lg:mb-24 flex justify-center self-center lg:-mt-12 lg:ml-6 ">
             <img loading="lazy" src={imgFooter} alt="" />
