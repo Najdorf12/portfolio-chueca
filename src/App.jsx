@@ -84,7 +84,7 @@ function App() {
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto ">
             <img
               loading="lazy"
-              className="img-home mt-0 max-w-72 md:max-w-72 lg:max-w-[30em]  lg:ml-44"
+              className="img-home mt-0 max-w-72 md:max-w-72 lg:max-w-[25em] xl:max-w-[28em]  lg:ml-44"
               src={imgHome2}
               alt=""
             />
