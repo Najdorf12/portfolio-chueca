@@ -68,7 +68,7 @@ function App() {
       <main className="w-full font-raleway overflow-hidden">
         <section
           id="home"
-          className="relative h-[90vh] w-full pt-6 flex flex-col justify-between md:flex-row lg:h-screen"
+          className="relative h-[100vh] w-full pt-6 flex flex-col justify-between md:flex-row lg:h-screen"
         >
           <picture className="z-50 w-full flex justify-center items-end md:items-start md:w-auto">
             <img
@@ -78,7 +78,7 @@ function App() {
               alt=""
             />
           </picture>
-          <header className="w-full mt-2 py-1 flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24 ">
+          <header className="w-full mt-0 py-1 flex  justify-center gap-3 items-center overflow-hidden md:absolute md:right-0 md:w-auto md:flex-col md:gap-10 md:top-0 md:bottom-0 mr-24">
             <img
               className="max-w-[100px] md:max-w-32"
               src={escudohome1}
@@ -90,7 +90,7 @@ function App() {
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto ">
             <img
               loading="lazy"
-              className="img-home mt-12 max-w-80 md:max-w-80 lg:max-w-[35em] lg:ml-44"
+              className="img-home mt-0 max-w-72 md:max-w-72 lg:max-w-[35em] lg:ml-44"
               src={imgHome2}
               alt=""
             />
@@ -101,7 +101,7 @@ function App() {
           id="about"
           className="relative w-full pt-8 flex flex-col items-center"
         >
-          <picture className="">
+          <picture className=" bg-white w-full flex justify-center">
             <img
               loading="lazy"
               className="max-w-60 md:max-w-80"
