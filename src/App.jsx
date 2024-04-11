@@ -66,6 +66,7 @@ function App() {
   return (
     <>
       <main className="w-full font-raleway overflow-hidden">
+        {/* MAIN */}
         <section
           id="home"
           className="relative h-[100vh] w-full pt-6 flex flex-col justify-between md:flex-row lg:h-screen"
@@ -90,13 +91,40 @@ function App() {
           <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto ">
             <img
               loading="lazy"
-              className="img-home mt-0 max-w-72 md:max-w-72 lg:max-w-[35em] lg:ml-44"
+              className="img-home mt-0 max-w-72 md:max-w-72 lg:max-w-[30em]  lg:ml-44"
               src={imgHome2}
               alt=""
             />
           </picture>
         </section>
+      
+     
+        {/* VIDEO */}
+        <section
+          id="video"
+          className="w-full py-10 flex flex-col justify-center items-center lg:py-20"
+        >
+          <picture className="w-full flex justify-center items-center mb-6 lg:mb-10">
+            <img
+              loading="lazy"
+              className="max-w-48 lg:max-w-64"
+              src={video}
+              alt=""
+            />
+          </picture>
+          <div className="w-11/12 h-96 lg:h-[50em] md:w-4/5 md bg-zinc-700">
+            <iframe
+              className="rounded-lg w-full h-full "
+              src="https://www.youtube.com/embed/Z4Eax-r54dQ?si=M8xf48CUVVdk2MwI"
+              title="Luciano Gonzalez"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
 
+        {/* HONORS */}
         <section
           id="about"
           className="relative w-full pt-8 flex flex-col items-center"
@@ -165,7 +193,7 @@ function App() {
             </header>
           </picture>
         </section>
-
+        {/* BIO */}
         <section
           id="data-player"
           className="relative w-full  pt-10 flex flex-col md:flex-row md:h-screen lg:justify-evenly"
@@ -199,30 +227,7 @@ function App() {
           </picture>
         </section>
 
-        <section
-          id="video"
-          className="w-full py-10 flex flex-col justify-center items-center lg:py-20"
-        >
-          <picture className="w-full flex justify-center items-center mb-6 lg:mb-10">
-            <img
-              loading="lazy"
-              className="max-w-48 lg:max-w-64"
-              src={video}
-              alt=""
-            />
-          </picture>
-          <div className="w-11/12 h-96 lg:h-[50em] md:w-4/5 md bg-zinc-700">
-            <iframe
-              className="rounded-lg w-full h-full "
-              src="https://www.youtube.com/embed/Z4Eax-r54dQ?si=M8xf48CUVVdk2MwI"
-              title="Luciano Gonzalez"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </section>
-
+        {/* FOTOS */}
         <section
           id="fotografia"
           className="w-full flex flex-col justify-center items-center py-14"
@@ -250,6 +255,8 @@ function App() {
             </button>
           </a>
         </section>
+
+        {/* FOOTER */}
         <section
           id="footer"
           className="w-full flex flex-col justify-center items-center"
