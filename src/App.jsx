@@ -87,10 +87,10 @@ function App() {
             <img className="max-w-24 md:max-w-32" src={escudohome2} alt="" />
             <img className="max-w-24 md:max-w-32" src={escudohome3} alt="" />
           </header>
-          <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto">
+          <picture className="z-10 w-full flex justify-center items-end md:absolute md:bottom-0 md:mx-auto ">
             <img
               loading="lazy"
-              className="img-home mt-12 max-w-80 md:max-w-80 lg:max-w-96 lg:ml-44"
+              className="img-home mt-12 max-w-80 md:max-w-80 lg:max-w-[35em] lg:ml-44"
               src={imgHome2}
               alt=""
             />
@@ -110,7 +110,11 @@ function App() {
             />
           </picture>
           <article className="self-end my-3 rounded-md md:mr-14 lg:mt-16 lg:mr-36">
-            <img className="w-60 md:w-72 lg:w-[300px]" src={carreradata} alt="" />
+            <img
+              className="w-60 md:w-72 lg:w-[300px]"
+              src={carreradata}
+              alt=""
+            />
           </article>
           <picture className="w-full flex justify-center items-center lg:self-start lg:max-w-[650px]  lg:ml-24 lg:-mt-40 ">
             <img
@@ -143,7 +147,7 @@ function App() {
                 />
               </div>
 
-              <div  className="lg:flex">
+              <div className="lg:flex">
                 <img
                   loading="lazy"
                   className="max-w-20 md:max-w-28"
@@ -207,7 +211,16 @@ function App() {
               alt=""
             />
           </picture>
-          <div className="w-11/12 h-56 md:w-4/5 bg-zinc-700"></div>
+          <div className="w-11/12 h-96 lg:h-[50em] md:w-4/5 md bg-zinc-700">
+            <iframe
+              className="rounded-lg w-full h-full "
+              src="https://www.youtube.com/embed/Z4Eax-r54dQ?si=M8xf48CUVVdk2MwI"
+              title="Luciano Gonzalez"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
         </section>
 
         <section
