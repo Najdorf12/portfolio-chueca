@@ -1,7 +1,4 @@
-import img1 from "/ESCUDO ARG.webp";
-import img2 from "/ESCUDO mza.webp";
-import img3 from "/ESCUDO regatas.webp";
-import img4 from "/ESCUDO sanidad.webp";
+
 import namePlayer from "/namePlayer.webp";
 import imgHome from "/imgHome.webp";
 import imgHome2 from "/imgHome2.webp";
@@ -9,10 +6,8 @@ import imgPlayer from "/imgPlayer.webp";
 import escudohome1 from "/bynarg.webp";
 import escudohome2 from "/bynsanidad.webp";
 import escudohome3 from "/bynregatas.webp";
-
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-
 import carrera from "/graf CARRERA.webp";
 import biografia from "/grafBiografia.webp";
 import datosbiometricos from "/datosbiometricos.webp";
@@ -23,19 +18,17 @@ import fotografia from "/graf FOTOS.webp";
 import titulos from "/titulos.webp";
 import mapaCalor from "/mapacalor.webp";
 import imgFooter from "/footer.webp";
-
 import imgSlider1 from "/imgSlider1.jpg";
 import imgSlider2 from "/imgSlider2.jpg";
 import imgSlider3 from "/imgSlider3.jpg";
 import imgSlider4 from "/imgSlider4.jpg";
 import imgSlider5 from "/imgSlider5.jpg";
 import imgSlider6 from "/imgSlider6.jpg";
-
 import escudocol2 from "/ESCUDO mza.webp";
 import escudocol3 from "/ESCUDO sanidad.webp";
 import escudocol4 from "/ESCUDO regatas.webp";
 import escudocol1 from "/escudo arg color.png";
-import { Link } from "react-router-dom";
+
 function App() {
   const images = [
     {
@@ -65,7 +58,7 @@ function App() {
   ];
   return (
     <>
-      <main className="w-full font-raleway overflow-hidden">
+      <main className="w-full font-raleway overflow-hidden 2xl:px-96">
         {/* MAIN */}
         <section
           id="home"
@@ -279,21 +272,3 @@ function App() {
 }
 
 export default App;
-/* Matías Origaen
-matiorigaen@gmail.com
-
- 3 ascensos 
-Campeón primera C 
-Campeón primera B capitán 
-Campeón nacional de primera, goleador con 20 goles y capitán 
-Campeón c20 de clubes, capitán y mejor jugador 
-Campeón c17 de selecciones capitán 
-Campeón c20 de selecciones capitán
-Campeón copa de oro c15 
-Campeón copa de oro c17
-Campeón mundial c20 capitán, mejor jugador y goleador con 11 goles
- Ascenso a primera A
-Campeón de plata C17 capitán 
-Campeón de plata c20 capitán 
-Campeón de bronce c20 capitán
- */
